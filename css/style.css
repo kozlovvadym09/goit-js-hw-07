@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding-left: 15px;
+}
+/* task - 1 */
+#categories {
+  list-style: none;
+}
+
+.item > ul {
+  list-style: none;
+}
+.item > h2 {
+  margin-bottom: 5px;
+}
+.item > ul > li {
+  margin-bottom: 5px;
+}
+
+/* task - 2 */
+#ingredients {
+  margin-top: 20px;
+  list-style: none;
+}
+
+/* task - 3 */
+#gallery {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.img {
+  width: 200px;
+  height: 150px;
+}
+/* task - 4 */
+#counter {
+  margin-top: 20px;
+}
+
+/* task - 5 */
+#name-input {
+  margin-top: 20px;
+}
+/* task - 6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+  margin-top: 20px;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
